@@ -2,6 +2,11 @@
 
 This microservice uses FastAPI to explore the MobileSam segmentation model as a RESTful API. The service allows users to upload images and get segmentation results.
 
+**Note**
+- The FastAPI is defined in the server.py file.
+- A Dokerfile is created to enable the docker image building and runing.
+- This README file is created to provide clear instructions for setting up, running, and interacting with the service.
+
 ## Setup
 
 1. **Clone this repository:**
@@ -42,6 +47,6 @@ The service will be available at http://localhost:8000/docs.
 The service will be available at http://localhost:8000/docs.
 
 ## API Endpoints
-- **POST /segment-image** upload an image file through [Browse] button.
-- then [Execute] it.
-- the Server response shows the segmentation results.
+- **POST /segment-image** Upload an image file through [Browse] button.
+- Then [Execute] it.
+- The Server response shows the segmentation results.
